@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QuizActivity</string>
+    <string name="question">Is Perth in Australia?</string>
+</resources>
