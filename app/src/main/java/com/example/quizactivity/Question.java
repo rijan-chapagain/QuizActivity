@@ -2,23 +2,19 @@ package com.example.quizactivity;
 
 public class Question {
 
-    private String mQuestion;
+    private int mQuestion;
     private boolean mAnswerTrue;
 
-    public Question(String question, boolean answerTrue){
+    public Question(int question, boolean answerTrue){
         mQuestion = question;
         mAnswerTrue = answerTrue;
     }
-    public String getQuestion()
-    {
-        return mQuestion;
-    }
 
-    public boolean getAnswerTrue()
-    {
+    public boolean getAnswer() {
         return mAnswerTrue;
     }
 
-
-
+    public int getTextResId() {
+        return mQuestion;
+    }
 }
