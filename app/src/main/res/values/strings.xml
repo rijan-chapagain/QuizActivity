@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">QuizActivity</string>
+    <string name="app_name">GeoQuiz1.0</string>
+
+    <string name="giveup_text">You are giving up! </string>
+    <string name="tryagain_text">Try Again! Sydney is the capital city of Australia</string>
+
     <string name="question_1">Is Perth in Australia?</string>
     <string name="question_2">Is Sydney 8th state of Nepal?</string>
     <string name="question_3">Is Mt. Everest located in Nepal?</string>
@@ -10,6 +14,5 @@
     <string name="prev_question">PREV</string>
     <string name="correct_answer">Correct!</string>
     <string name="incorrect_answer">Incorrect!</string>
-
 
 </resources>
