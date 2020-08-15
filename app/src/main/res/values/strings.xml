@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">QuizActivity</string>
-    <string name="question">Is Perth in Australia?</string>
+    <string name="question_1">Is Perth in Australia?</string>
+    <string name="question_2">Is Kathmandu capital of Nepal?</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_question">NEXT</string>
+    <string name="prev_question">PREV</string>
+    <string name="correct_answer">Correct!</string>
+    <string name="incorrect_answer">Incorrect!</string>
+
+
 </resources>

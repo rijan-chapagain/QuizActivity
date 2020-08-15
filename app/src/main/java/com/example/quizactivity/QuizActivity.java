@@ -6,34 +6,38 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class QuizActivity extends AppCompatActivity {
 
     private Button mTrueButton;
-    private Button mPrevButton;
+    private Button mFalseButton;
     private TextView mQuestionTextView;
+    private Question mQuestionBank[];
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
-    public void onTrueButtonCLicked(View v)
+    public void onTrueClick(android.view.View view)
     {
-        checkAnswer (true);
+        Toast.makeText( QuizActivity.this,
+                R.string.correct_answer,
+                Toast.LENGTH_SHORT).show();
     }
 
-    private void checkAnswer(boolean b) {
-    }
-
-    public void onFalseButtonCLicked(View v)
+    public void onFalseClick(android.view.View view)
     {
-        checkAnswer (false);
+        Toast.makeText( QuizActivity.this,
+                R.string.incorrect_answer,
+                Toast.LENGTH_SHORT).show();
     }
-//
-//    Private Question[] mQuestionBank - new Question [] {
-//            new
+
+
+//    private void checkAnswer(boolean b) {
 //    }
-
 
 }
